@@ -5,7 +5,7 @@ Bu bir araç adas sistemidir. Şerit takip uyarı sistemi, Trafik ışık ve tab
 
 Darknet YOLOv4 mimarisi kullanılarak bir model eğitilmiş ve sisteme entegre edilmiştir. Model ağırlık dosyası ve gerekli dosyalar: https://drive.google.com/drive/folders/1zg17FC5uFDRiNPHP2B5R4005A0Cv4Y5P?usp=sharing
 
-Sistem NVIDIA Jetson AGX Xavier üzerinde çalıştırılmıştır. Kamera ve buzzer kontrolü için JETGPIO kütüphanesindeki uyumlu pinler kullanılmıştır.
+Sistem NVIDIA Jetson AGX Xavier üzerinde çalıştırılmıştır. Kamera ve buzzer kontrolü için JETGPIO kütüphanesindeki uyumlu pinler kullanılmıştır. https://github.com/Rubberazer/JETGPIO.git
 
 ![xavier](https://github.com/user-attachments/assets/8efa963f-0a2e-4dce-9207-279c319ebba4)
 
