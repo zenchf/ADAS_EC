@@ -520,7 +520,6 @@ int main(int argc, char *argv[]) {
     namedWindow("Arka Kamera", WINDOW_NORMAL);
     resizeWindow("Arka Kamera", 650, 460);
     
-    
     while (true) {
         // Kamera verisi al
         cap_serit >> arka_;
@@ -566,9 +565,8 @@ int main(int argc, char *argv[]) {
         if (waitKey(30) == 27) break;
     }
 
-    // Uygulama sonu: her şeyi kapat
     tcpRunning = false;
-    if (tcpThread.joinable()) tcpThread.join();  // <--- BU YENİ
+    if (tcpThread.joinable()) tcpThread.join(); 
     cap_serit.release();
     gpioTerminate();
     destroyAllWindows();
